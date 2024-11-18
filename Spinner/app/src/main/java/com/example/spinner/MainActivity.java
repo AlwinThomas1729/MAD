@@ -1,5 +1,6 @@
 package com.example.spinner;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -38,7 +39,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String planet = spinner.getSelectedItem().toString();
-                Toast.makeText(MainActivity.this, "Planet: " + planet, Toast.LENGTH_SHORT).show();
+                Intent i = new Intent(MainActivity.this,MainActivity2.class);
+                i.putExtra("selected",planet);
+                startActivity(i);
+                //Toast.makeText(MainActivity.this, "Planet: " + planet, Toast.LENGTH_SHORT).show();
             }
         });
 
