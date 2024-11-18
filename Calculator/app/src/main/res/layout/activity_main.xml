@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:padding="16dp">
+
+<!-- Display for the input and result -->
+<EditText
+    android:id="@+id/display"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:hint="0"
+    android:gravity="end"
+    android:textSize="24sp"
+    android:focusable="false"
+    android:background="#EEEEEE"
+    android:padding="10dp" />
+
+<!-- Buttons for the calculator -->
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:rowCount="5"
+    android:columnCount="4"
+    android:padding="10dp"
+    android:layout_marginTop="20dp">
+
+    <!-- Digits -->
+    <Button android:id="@+id/btn_7" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="7" />
+    <Button android:id="@+id/btn_8" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="8" />
+    <Button android:id="@+id/btn_9" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="9" />
+    <Button android:id="@+id/btn_div" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="/" />
+
+    <Button android:id="@+id/btn_4" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="4" />
+    <Button android:id="@+id/btn_5" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="5" />
+    <Button android:id="@+id/btn_6" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="6" />
+    <Button android:id="@+id/btn_mul" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="*" />
+
+    <Button android:id="@+id/btn_1" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="1" />
+    <Button android:id="@+id/btn_2" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="2" />
+    <Button android:id="@+id/btn_3" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="3" />
+    <Button android:id="@+id/btn_sub" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="-" />
+
+    <Button android:id="@+id/btn_0" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="0" />
+    <Button android:id="@+id/btn_clr" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="CLR" />
+    <Button android:id="@+id/btn_eq" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="=" />
+    <Button android:id="@+id/btn_add" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_columnWeight="1" android:text="+" />
+
+</GridLayout>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Scroll View</string>
+    <string name="scrolltext">
+        ScrollView is a layout container that allows its child views
+        to be scrollable vertically.
+        It\'s useful when you have content that exceeds the screen height and want to
+        provide the user with a way to scroll through it.
+
+        ScrollView enables vertical scrolling for its SINGLE child view.
+
+        String resources are located at `res/values/string.xml`.
+
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Duis vel tristique turpis, vitae ullamcorper nisi. Nulla tristique tempor
+        tortor ut faucibus. Aenean in egestas lectus. Sed hendrerit nunc vitae neque finibus dapibus.
+        Suspendisse ultricies vulputate maximus. Praesent vel augue ut erat euismod sollicitudin
+        ac nec lacus. Vivamus rhoncus in neque et commodo.
+        Nam ac euismod tortor. Vivamus tempus lacinia nisl sit amet tincidunt. Vivamus
+        lacinia condimentum magna a egestas. Fusce eget varius dolor. Integer dui eros,
+        ultricies at dui et, lacinia efficitur turpis. Donec id eros finibus, tincidunt
+        ante vel, dignissim nunc. Aenean interdum massa at elementum pellentesque.
+
+        Fusce sagittis justo in risus iaculis, vitae malesuada arcu ultrices.
+        Etiam quis pulvinar metus. Fusce augue eros, sagittis vitae fringilla
+        vitae, imperdiet a mauris. Cras sit amet orci sit amet orci varius auctor.
+        Pellentesque sodales velit in ultricies ultrices. In iaculis sem et tortor bibendum,
+        id lobortis eros efficitur. Nam euismod ultrices consequat.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam porta, nisl eu
+        aliquam porttitor, enim ligula suscipit purus, et bibendum turpis arcu sed lorem.
+        Nullam scelerisque sapien quis tincidunt tincidunt. Sed orci leo, eleifend quis
+        orci non, euismod tincidunt lacus.
+    </string>
+</resources>
